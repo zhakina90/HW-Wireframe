@@ -5,7 +5,10 @@ body {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 width: 960px;
 }
-
+.center-staff {
+    margin-left: 0;
+    margin-right: 0;
+}
 .header {
     padding-top: 20px;
     background:  #ebebeb;
@@ -80,13 +83,14 @@ p {
 display: block;
 }
 .footer {
+  
     padding-top: 20px;
     background: #ebebeb;
     color: #777;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    width: 78%; 
+    width: 960px; 
     height: 50px;
 position: fixed;
 bottom: 5px;
